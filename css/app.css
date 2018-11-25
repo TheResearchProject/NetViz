@@ -1,0 +1,86 @@
+body {
+    font-family: Verdana,Arial,sans-serif;
+}
+
+#menu {
+    position: absolute;
+}
+
+#main-graph-box {
+    width: 100%;
+    height: 90%;
+    border: 1px solid #888;
+}
+
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.selected-node {
+    stroke: #444;
+    stroke-width: 4px;
+}
+
+.link {
+    stroke: #999;
+    stroke-width: 3;
+    stroke-opacity: .6;
+}
+
+.ui-menu {
+    width: 19em;
+}
+
+.ui-widget {
+    font-size: .9em;
+}
+
+.textbox {
+    height: 2em;
+    vertical-align: middle;
+    border: 1px solid #888;
+    padding: .1em .5em;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .85em;
+}
+
+#info-box {
+  margin-top: 3px;
+}
+
+.info-label {
+    background-color: #bbb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #001d5c;
+    text-shadow: 1px 1px #dfdfdf;
+    padding: 2px 6px;
+    margin: 1px;
+    font-size: .8em;
+}
+
+.info-value-graph {
+    background-color: #e75c00;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 1px 1px #915d3b;
+    padding: 2px 15px;
+    margin: 1px;
+    font-size: .8em;
+}
+
+.info-value-node {
+    background-color: #005cff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #fff;
+    text-shadow: 1px 1px #405060;
+    padding: 2px 15px;
+    margin: 1px;
+    font-size: .8em;
+}

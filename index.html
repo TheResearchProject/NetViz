@@ -1,0 +1,47 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.1.css" />
+  <link rel="stylesheet" type="text/css" href="css/app.css" />
+  <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery-ui-1.10.1.js"></script>
+  <script type="text/javascript" src="js/d3.v3.min.js"></script>
+  <script type="text/javascript" src="js/app.js"></script>
+</head>
+<body>
+
+<ul id="menu">
+  <li menu-item="date-range"><a href="#" >Date Range</a></li>
+  <li menu-item="single-item"><a href="#">Single News Item</a></li>
+  <li menu-item="strip-by-date"><a href="#">Strip Comments By Date Range [ ]</a></li>
+</ul>
+
+<button id="menu-btn" dis>&nbsp;</button>
+<div style="display: inline-block;">
+  <div id="date-range-form" style="display: none;">
+    From: <input type="text" id="date_from" class="textbox" />
+    To: <input type="text" id="date_to" class="textbox" />
+  </div>
+  <div id="single-item-form" style="display: none;">
+    NewsItem ID: <input type="text" id="newsitem" class="textbox" />
+  </div>
+</div>
+<button id="load-btn">Load</button>
+
+<div id="graph-container">
+  <div id="main-graph-box"></div>
+</div>
+
+<div id="info-box">
+  <label class="info-label">News Item ID:</label><label class="info-value-graph" name="id">0</label>
+  <label class="info-label">Graph Diameter:</label><label class="info-value-graph" name="diameter">0</label>
+  <label class="info-label">Avg. Shortest Path:</label><label class="info-value-graph" name="avg-shortest-path">0</label>
+  <label class="info-label">Avg. Clustering Coefficient:</label><label class="info-value-graph" name="avg-clustering">0</label>
+  <span style="padding: 0px 10px;">&nbsp;</span>
+  <label class="info-label">Node Degree:</label><label class="info-value-node" name="degree">0</label>
+  <label class="info-label">Distance To News Item:</label><label class="info-value-node" name="distance">0</label>
+</div>
+</body>
+</html>
+
+
+
