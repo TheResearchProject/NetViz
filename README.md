@@ -4,4 +4,4 @@ Network visualization of messages structured according to normalized db in resea
 
 Calculates some basic metrics at the bottom of the visualization.
 
-Python 2.7
+Python 2.7 & js
